@@ -2,6 +2,7 @@
 #include <string>
 #include <zlib.h>
 #include <uv.h>
+#include <sys/socket.h>
 #include <llhttp.h>
 
 struct client_t {
