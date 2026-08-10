@@ -120,7 +120,7 @@ int main() {
 
     int r = uv_listen((uv_stream_t*)&server, 128, on_new_connection);
     if (r) {
-        std::cerr << "Listen error" << std::endl;
+        std::cerr << "Listen error: " << uv_strerror(r) << std::endl;
         return 1;
     }
 
