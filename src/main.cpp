@@ -114,7 +114,7 @@ int main() {
     uv_tcp_init(loop, &server);
 
     struct sockaddr_in addr;
-    uv_ip4_addr("127.0.0.1", 8080, &addr);
+    uv_ip4_addr("127.0.0.1", 9001, &addr);
 
     uv_tcp_bind(&server, (const struct sockaddr*)&addr, 0);
 
