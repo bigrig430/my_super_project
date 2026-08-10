@@ -64,7 +64,7 @@ int main() {
     uv_tcp_init(loop, &server);
 
     struct sockaddr_in addr;
-    uv_ip4_addr("0.0.0.0", 7000, &addr);
+    uv_ip4_addr("127.0.0.1", 9001, &addr);
 
     uv_tcp_bind(&server, (const struct sockaddr*)&addr, 0);
 
@@ -74,7 +74,7 @@ int main() {
         return 1;
     }
 
-    std::cout << "TCP server running on port 7000" << std::endl;
+    std::cout << "HTTP server running on port 9001" << std::endl;
 
     uv_run(loop, UV_RUN_DEFAULT);
     return 0;
