@@ -1,4 +1,5 @@
 CMakeFiles/my_super_project.dir/src/main.cpp.o: \
+  /data/data/com.termux/files/usr/lib/clang/21/share/asan_ignorelist.txt \
   /data/data/com.termux/files/home/my_super_project/src/main.cpp \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
