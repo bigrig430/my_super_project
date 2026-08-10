@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/my_super_project.dir/link.d CMakeFiles/my_super_project.dir/src/main.cpp.o -o my_super_project  -lz -luv -lllhttp
