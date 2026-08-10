@@ -122,9 +122,8 @@ int main() {
     if (r) {
         std::cerr << "Listen error: " << uv_strerror(r) << std::endl;
         return 1;
-    }
-
-    std::cout << "HTTP server running on port 7000" << std::endl;
+   }
+    std::cout << "HTTP server running on port 9001" << std::endl; 
 
     uv_run(loop, UV_RUN_DEFAULT);
     return 0;
