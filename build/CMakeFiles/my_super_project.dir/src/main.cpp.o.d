@@ -695,16 +695,6 @@ CMakeFiles/my_super_project.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/zlib.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/zconf.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/fcntl.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/getentropy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/getopt.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/ioctl.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/lockf.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/sysconf.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/android/legacy_unistd_inlines.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/bits/swab.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/uv.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/uv/errno.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/uv/version.h \
@@ -717,6 +707,8 @@ CMakeFiles/my_super_project.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/linux/fcntl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/linux/openat2.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/linux/uio.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/fcntl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/lockf.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/dirent.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/sys/socket.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/socket.h \
@@ -762,6 +754,7 @@ CMakeFiles/my_super_project.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android/asm/ioctls.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/asm-generic/ioctls.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/linux/tty.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/ioctl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/android/legacy_termios_inlines.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/termios_inlines.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/bits/termios_winsize_inlines.h \
