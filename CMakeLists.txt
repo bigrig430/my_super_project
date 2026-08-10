@@ -26,7 +26,9 @@ link_directories(
     ${LIBUV_LIBRARY_DIRS}
 )
 
-add_executable(my_super_project src/main.cpp)
+add_executable(my_super_project
+    src/main.cpp
+)
 
 target_link_libraries(my_super_project
     ${ZLIB_LIBRARIES}
